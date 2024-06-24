@@ -1,0 +1,66 @@
+body{
+    background-color: aquamarine;
+}
+
+
+
+/* common style  */
+.container{
+    position: relative;
+    margin: 10px;
+    background-color: white;
+}
+
+
+
+
+
+.nav-ber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-ber h1 {
+    font-size: 28px;
+}
+
+.nav-ber a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    margin-right: 20px;
+}
+
+/* nav closed  */
+
+
+
+.head-container{
+    display: flex;
+    /* width: 100%; */
+}
+
+.head-container-one{
+    width: 50%;
+}
+
+head-container-one
+
+.head-container>div>h1{
+    font-size: 52px;
+}
+
+.btn{
+    padding: 0px 10px;
+    background-color: #E02C6D;
+    border-radius: 20px;
+}
+
+.image{
+    width: 50%;
+    position: relative;
+    left: 30px;
+}
+
