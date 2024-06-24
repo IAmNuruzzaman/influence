@@ -1,6 +1,4 @@
-body{
-    background-color: aquamarine;
-}
+
 
 
 
@@ -8,7 +6,7 @@ body{
 .container{
     position: relative;
     margin: 10px;
-    background-color: white;
+    padding: 0px 30px;
 }
 
 
@@ -28,9 +26,9 @@ body{
 
 .nav-ber a{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 /* nav closed  */
@@ -44,9 +42,15 @@ body{
 
 .head-container-one{
     width: 50%;
+    
 }
 
-head-container-one
+.head-container-two{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+}
 
 .head-container>div>h1{
     font-size: 52px;
@@ -61,6 +65,6 @@ head-container-one
 .image{
     width: 50%;
     position: relative;
-    left: 30px;
+    
 }
 
