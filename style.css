@@ -100,21 +100,23 @@
 /* popular calection
  */
 
-.popular-calection{
+.popular-calection {
     margin-top: 100px;
 }
+
 .popular-calection>h1 {
     text-align: center;
     font-size: 50px;
 }
 
-.blogs{
+.blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    
+
 }
-.blog{
+
+.blog {
     margin: 30px;
     padding: 30px;
     box-shadow: 5px 5px 10px 5px rgb(202, 197, 197);
@@ -124,15 +126,15 @@
 
 .blog a {
     text-decoration: none;
-    
+
 }
 
-.star-yellow{
+.star-yellow {
     color: rgb(230, 198, 17);
 
 }
 
-.see-more{
+.see-more {
     text-align: right;
     color: #E02C6D;
     font-size: 16ox;
@@ -144,38 +146,77 @@
 
 /* another section - gear  */
 
-.gear{
+.gear {
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
-    
+
 }
 
 
-.gear-one{
+.gear-one {
     /* width: 50%; */
     margin-right: 50px;
 }
 
-.gear-two{
+.gear-two {
     /* width: 50%; */
 }
 
-.gear-two >h1{
-    
+.gear-two>h1 {
+
     font-size: 38px;
 }
 
 
 
 
-.footer{
+.footer {
     background-color: black;
     color: white;
-   padding: 40px;
-   text-align: center;
+    padding: 40px;
+    text-align: center;
 }
 
-.footer i{
-margin-right: 20px;
+.footer i {
+    margin-right: 20px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .head-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        direction: rtl;
+
+    }
+
+    .head-container-one {
+        width: 100%;
+        text-align: center;
+    }
+
+    .head-container-two {
+        width: 100%;
+    }
+
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .gear {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+        
+    }
+
+.gear div{
+    text-align: center;
+}
+
 }
