@@ -184,7 +184,7 @@
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 411px) {
     
     .container{
         margin: 20px;
@@ -233,6 +233,10 @@
     }
     .gear-two{
         text-align: center;
+    }
+
+    .footer{
+        width: 100%;
     }
 
 }
