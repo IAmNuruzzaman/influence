@@ -184,11 +184,16 @@
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
+    
+    .container{
+        margin: 20px;
+    }
+    
     .head-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        direction: rtl;
+        
 
     }
 
@@ -219,10 +224,13 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
 
-
     }
 
-    .gear div {
+    .gear-one{
+        display: flex;
+        justify-content: center;
+    }
+    .gear-two{
         text-align: center;
     }
 
