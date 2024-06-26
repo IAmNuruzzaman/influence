@@ -201,22 +201,29 @@
         width: 100%;
     }
 
+    .logo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 
     .blogs {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .blog {
+        text-align: center;
+    }
 
     .gear {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        
-        
+
+
     }
 
-.gear div{
-    text-align: center;
-}
+    .gear div {
+        text-align: center;
+    }
 
 }
